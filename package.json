@@ -8,14 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-<<<<<<< HEAD
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
-    }
-  },
-=======
     "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
     },
->>>>>>> 98960cf... coveralls
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2"
@@ -32,12 +26,6 @@
     "react-test-renderer": "16.11.0"
   },
   "jest": {
-<<<<<<< HEAD
     "preset": "react-native"
   }
-=======
-    "preset": "react-native",
-    "coverageDirectory": "./coverage"
-    }
->>>>>>> 98960cf... coveralls
 }
